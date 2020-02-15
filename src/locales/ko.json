@@ -1,0 +1,30 @@
+{
+  "common": {
+    "price_unit": "₩",
+    "imp_request_fail": "결제 실패"
+  },
+  "header": {
+    "menu": {
+      "billboard_find": "광고판 찾기",
+      "billboard_register": "광고판 등록",
+      "login": "로그인",
+      "logout": "로그아웃",
+      "join": "회원가입",
+      "my_info": "내정보",
+      "set_info": "정보 수정",
+      "reservation_history": "예약 내역",
+      "favorite_list": "저장 목록",
+      "greetings": "반갑습니다"
+    }
+  },
+  "home": {
+    "header_desc": "빌차 서비스 소개빌차 서비스 소개빌차 서비스 소개 <br>빌차 서비스 소개빌차 서비스 소개빌차 서비스 소개",
+    "recommend": "추천 광고판"
+  },
+  "error": {
+    "400": "잘못된 요청입니다. 잠시 후 다시 시도해주세요.",
+    "401": "권한이 없습니다. 로그인이 필요합니다.",
+    "403": "권한이 없습니다.",
+    "404": "존재하지 않는 URL 입니다."
+  }
+}

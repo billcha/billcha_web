@@ -1,0 +1,7 @@
+{
+  "common": {
+    "COMMON_TEST": "I18N 테스트",
+    "price_unit": "￥"
+  },
+  "message": "안녕 i18n !!"
+}

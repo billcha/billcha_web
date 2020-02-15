@@ -1,0 +1,30 @@
+{
+  "common": {
+    "price_unit": "$",
+    "imp_request_fail": "fail"
+  },
+  "header": {
+    "menu": {
+      "billboard_find": "Find Billboard",
+      "billboard_register": "Billboard Registration",
+      "login": "login",
+      "logout": "logout",
+      "join": "join",
+      "my_info": "My Info",
+      "set_info": "Set Info",
+      "reservation_history": "Reservation History",
+      "favorite_list": "Favorite List",
+      "greetings": "Hello"
+    }
+  },
+  "home": {
+    "header_desc": "Bilocha Service IntroductionBilcha Service IntroductionBilcha Service Introduction <br>Bilocha Service IntroductionBilcha Service IntroductionBilcha Service Introduction",
+    "recommend": "Featured billboard"
+  },
+  "error": {
+    "400": "Invalid request Please try again in a few minutes.",
+    "401": "You do not have permission. Login is required.",
+    "403": "You do not have permission.",
+    "404": "URL does not exist"
+  }
+}

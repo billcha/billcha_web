@@ -1,0 +1,20 @@
+font-face(fontFamily type)
+  fontFaceList = (Bold 600) (Medium 500) (Regular 400) (Light 300)
+  for weight in fontFaceList
+    @font-face
+      font-family: fontFamily
+      font-weight: weight[1]
+      src: url('~css/fonts/'fontFamily'-'weight[0]'.'type)
+
+font-face-CJKkr(fontFamily)
+  fontFaceList = (Bold 600) (Medium 500) (Regular 400) (Light 300)
+  for weight in fontFaceList
+    @font-face
+      font-family: fontFamily
+      font-weight: weight[1]
+      src: url('~css/fonts/'fontFamily'-'weight[0]'.woff2') format('woff2'),
+        url('~css/fonts/'fontFamily'-'weight[0]'.woff') format('woff'),
+        url('~css/fonts/'fontFamily'-'weight[0]'.otf') format('opentype')
+
+font-face("NotoSans", "ttf")
+font-face-CJKkr("NotoSansCJKkr")
